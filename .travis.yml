@@ -2,6 +2,7 @@ language: ruby
 install:
    - "bundle install"
    - "npm install"
+before_deploy: "echo 'ready?'"
 deploy:
   provider: heroku
   api_key: 3750d8e1-6e74-48e2-a66c-856c981f1677
