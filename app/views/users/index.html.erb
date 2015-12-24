@@ -1,0 +1,14 @@
+<section>
+  <h1>Login</h1>
+  <%= form_tag("#{user_login_path}", method: "post") do %>
+      <%= label_tag(:user_name, "UserName:") %>
+      <%= text_field_tag(:user_name) %>
+      <%= label_tag(:password, "Password:") %>
+      <%= text_field_tag(:password) %>
+      <%= submit_tag("Login") %>
+  <% end %>
+  <ul class="rui-list-inline join-action">
+    <li>Don't have an account? <a>Join</a>
+    </li>
+  </ul>
+</section>
