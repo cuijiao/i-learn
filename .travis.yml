@@ -7,5 +7,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 3750d8e1-6e74-48e2-a66c-856c981f1677
+  app: team-a-i-learn
   run:
     - restart
