@@ -5,6 +5,7 @@ gem 'rails', '4.2.3'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'react-rails', '~> 1.5.0'
+gem 'sprockets-coffee-react'
 
 group :production do
   gem 'pg'
