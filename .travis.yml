@@ -11,5 +11,6 @@ deploy:
   app:
       master: team-a-i-learn-staging
   run:
+    - 'rake assets:precompile --trace'
     - 'rake db:migrate'
     - restart
