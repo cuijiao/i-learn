@@ -1,9 +1,9 @@
 %section
-  #header
-    I learn
+  #header.head
+    = react_component 'Header', {}, :div
   - if flash[:notice]
     .alert-message
       = flash[:notice]
 %section
-  #login
+  #login.login
     = react_component 'Login', {}, :div
