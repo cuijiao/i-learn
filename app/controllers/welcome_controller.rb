@@ -8,7 +8,7 @@ class WelcomeController < ApplicationController
       flash[:notice] = "Username or Password error, please input correct one"
       render "login"
     else
-      # redirect_to course_path
+      redirect_to course_homepage_path
     end
   end
 
@@ -21,7 +21,7 @@ class WelcomeController < ApplicationController
       flash[:notice] = "Sign Up failed, please try again"
       render "signup"
     else
-      # redirect_to course_path
+      redirect_to course_homepage_path
     end
   end
 end

@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get '/signup' => 'welcome#signup'
   post '/create_user' => 'welcome#create_user'
 
+  get 'course/index' => 'course#index', as: :course_homepage
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
