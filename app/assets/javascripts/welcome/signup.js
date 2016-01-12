@@ -16,3 +16,5 @@ var SignUp = React.createClass({
         );
     }
 });
+
+module.exports = SignUp;

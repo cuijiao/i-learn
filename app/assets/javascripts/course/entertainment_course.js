@@ -19,3 +19,5 @@ var Entertainment = React.createClass({
         );
     }
 });
+
+module.exports = Entertainment;
