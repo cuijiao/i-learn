@@ -1,0 +1,8 @@
+%section
+  #header
+    I learn
+  - if flash[:notice]
+    = flash[:notice]
+%section
+  #login
+    = react_component 'Login', {}, :div
