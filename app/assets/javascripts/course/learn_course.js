@@ -19,5 +19,3 @@ var Learn = React.createClass({
         );
     }
 });
-
-module.exports = Learn;
