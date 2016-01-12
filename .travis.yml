@@ -2,7 +2,6 @@ language: ruby
 bundler_args: --without production
 install:
    - "bundle install"
-   - "npm install"
 before_deploy: "echo 'ready?'"
 deploy:
   provider: heroku
