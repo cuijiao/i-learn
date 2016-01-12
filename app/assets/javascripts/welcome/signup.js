@@ -1,7 +1,7 @@
 //@cjsx React.DOM
 
 var SignUp = React.createClass({
-    render(){
+    render: function(){
         return(
             <form id="signup" method="post" action="/create_user">
                 <h1>Sign Up</h1>

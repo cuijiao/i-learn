@@ -1,7 +1,7 @@
 //@cjsx React.DOM
 
 var Entertainment = React.createClass({
-    render(){
+    render: function(){
         var courses = this.props["entertainment_courses"];
         return(
             <div>

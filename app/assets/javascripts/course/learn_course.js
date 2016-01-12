@@ -1,7 +1,7 @@
 //@cjsx React.DOM
 
 var Learn = React.createClass({
-    render(){
+    render: function(){
         var courses = this.props["learn_courses"];
         return(
             <div>
