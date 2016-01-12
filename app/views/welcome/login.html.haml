@@ -2,7 +2,8 @@
   #header
     I learn
   - if flash[:notice]
-    = flash[:notice]
+    .alert-message
+      = flash[:notice]
 %section
   #login
     = react_component 'Login', {}, :div
