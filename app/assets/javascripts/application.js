@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require react
 //= require react_ujs
+//= require bootstrap-sprockets
 //= require_tree ./welcome
 //= require_tree ./course
 //= require_tree ./shared
