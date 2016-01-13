@@ -8,11 +8,9 @@ var Entertainment = React.createClass({
           <p>休闲技能</p>
             <div>
                 {
-                    courses.map(function(course){
+                    courses.map(function(course, index){
                         return (
-                            <div>
-                                {course.name}
-                            </div>
+                            <Course course={course} key={index}/>
                         )
                     })
                 }
