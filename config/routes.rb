@@ -4,10 +4,10 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#login'
-  post '/validate' => 'welcome#validate'
+  get '/validate' => 'welcome#validate'
 
   get '/signup' => 'welcome#signup'
-  post '/create_user' => 'welcome#create_user'
+  get '/create_user' => 'welcome#create_user'
 
   get 'course/index' => 'course#index', as: :course_homepage
 

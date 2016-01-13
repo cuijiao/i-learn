@@ -5,7 +5,7 @@ var Login = React.createClass({
         var validate_path = this.props.validate
         var signup_path = this.props.signup
         return(
-            <form id="login" method="post" action= {validate_path}>
+            <form id="login" method="get" action= {validate_path}>
                 <h1>Log In</h1>
                 <fieldset className="login-inputs">
                     <input type="text" name="username" placeholder="Username" autofocus required />

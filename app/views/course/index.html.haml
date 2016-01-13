@@ -1,6 +1,6 @@
 %section
   #navigation
-    = react_component 'Navigation', {}, :div
+    = react_component 'Navigation', {username: cookies[:username]}, :div
 %section
   #header.head
     = react_component 'Header', {}, :div
