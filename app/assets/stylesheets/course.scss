@@ -1,5 +1,11 @@
-#learn_courses{
-  margin: auto;
+#learn_courses, #entertainment_courses{
+  margin: 50px 130px;
+
+  .tag{
+    margin-bottom: 30px;
+    border-bottom: 1px solid
+  }
+
   .course-background{
     background: image-url('master.jpg');
     width: 200px;
@@ -10,7 +16,6 @@
   }
   .courses{
     width: 1000px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
   }

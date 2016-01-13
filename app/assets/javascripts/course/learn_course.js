@@ -5,7 +5,7 @@ var Learn = React.createClass({
         var courses = this.props["learn_courses"];
         return(
             <div>
-                <p>学习技能</p>
+                <p className="tag">学习技能</p>
                 <div className="courses">
                     {
                         courses.map(function(course, index){

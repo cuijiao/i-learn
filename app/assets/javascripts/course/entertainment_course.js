@@ -1,22 +1,21 @@
 //@cjsx React.DOM
 
 var Entertainment = React.createClass({
-    render: function(){
+    render: function () {
         var courses = this.props["entertainment_courses"];
-        return(
-          <div>
-          <p>休闲技能</p>
+        return (
             <div>
-                {
-                    courses.map(function(course, index){
-                        return (
-                            <Course course={course} key={index}/>
-                        )
-                    })
-                }
+                <p className="tag">休闲技能</p>
+                <div className="courses">
+                    {
+                        courses.map(function (course, index) {
+                            return (
+                                <Course course={course} key={index}/>
+                            )
+                        })
+                    }
+                </div>
             </div>
-          </div>
-
         );
     }
 });
