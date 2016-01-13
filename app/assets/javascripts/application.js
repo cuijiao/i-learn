@@ -17,3 +17,4 @@
 //= require react_ujs
 //= require_tree ./welcome
 //= require_tree ./course
+//= require_tree ./shared
