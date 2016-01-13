@@ -6,4 +6,4 @@
       = flash[:notice]
 %section
   #login.login
-    = react_component 'Login', {}, :div
+    = react_component 'Login', {validate: validate_path, signup: signup_path}, :div

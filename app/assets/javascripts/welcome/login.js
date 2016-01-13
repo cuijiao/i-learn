@@ -2,8 +2,10 @@
 
 var Login = React.createClass({
     render: function(){
+        var validate_path = this.props.validate
+        var signup_path = this.props.signup
         return(
-            <form id="login" method="post" action="/validate">
+            <form id="login" method="post" action= {validate_path}>
                 <h1>Log In</h1>
                 <fieldset className="login-inputs">
                     <input type="text" name="username" placeholder="Username" autofocus required />
@@ -11,7 +13,7 @@ var Login = React.createClass({
                 </fieldset>
                 <fieldset className="login-actions">
                     <input type="submit" id="submit" value="Log in" />
-                    <a href="/signup">Register</a>
+                    <a href={signup_path}>Register</a>
                 </fieldset>
             </form>
         );
