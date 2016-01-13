@@ -1,7 +1,7 @@
 //@cjsx React.DOM
 
 var Login = React.createClass({
-    render(){
+    render: function(){
         return(
             <form id="login" method="post" action="/validate">
                 <h1>Log In</h1>

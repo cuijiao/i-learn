@@ -1,7 +1,7 @@
 //@cjsx React.DOM
 
 var Header = React.createClass({
-    render(){
+    render: function(){
     return(
         <div>
             <p>LEARN</p>
@@ -9,5 +9,3 @@ var Header = React.createClass({
         );
 }
 });
-
-module.exports = Header;
