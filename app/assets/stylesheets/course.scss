@@ -1,0 +1,29 @@
+#learn_courses{
+  margin: auto;
+  .course-background{
+    background: image-url('master.jpg');
+    width: 200px;
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 11px auto;
+  }
+  .courses{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .course{
+    background-color: #ffffff;
+    width: 220px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px black;
+    box-shadow: 5px 5px 10px gray;
+    span {
+      margin-left: 11px;
+    }
+  }
+}

@@ -1,6 +1,11 @@
 @import "_global-color.scss";
+@import "course.scss";
 html {
   font-family: sans-serif;
+}
+
+body {
+  background-color: $color_gray;
 }
 .head {
   background-color: $color_blue;

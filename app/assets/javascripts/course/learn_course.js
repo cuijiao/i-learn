@@ -5,15 +5,16 @@ var Learn = React.createClass({
         var courses = this.props["learn_courses"];
         return(
             <div>
-                {
-                    courses.map(function(course){
-                        return (
-                            <div>
-                                {course.name}
-                            </div>
-                        )
-                    })
-                }
+                <p>学习技能</p>
+                <div className="courses">
+                    {
+                        courses.map(function(course, index){
+                            return (
+                                <Course course={course} key={index}/>
+                            )
+                        })
+                    }
+                </div>
             </div>
 
         );
