@@ -12,6 +12,8 @@ Course.create({name:"CSS语言", tag:"learn",owner: "tong", published_at: Time.n
 ruby = Course.create({name:"Ruby", tag:"learn",owner: "tong", published_at: Time.new(2016,1,1), status: "open"})
 Course.create({name:"Mobile开发", tag:"learn",owner: "tong", published_at: Time.new(2016,1,1), status: "open"})
 Course.create({name:"Web开发", tag:"learn",owner: "tong", published_at: Time.new(2016,1,1), status: "open"})
+Course.create({name:"Management 3.0", tag:"learn",owner: "tong", published_at: Time.new(2016,1,1), status: "open"})
+Course.create({name:"React实践", tag:"learn",owner: "tong", published_at: Time.new(2016,1,1), status: "open"})
 yoga = Course.create({name:"Yoga", tag:"entertainment",owner: "jiao", published_at: Time.new(2016,1,1), status: "open"})
 Course.create({name:"太极拳", tag:"entertainment",owner: "jiao", published_at: Time.new(2016,1,1), status: "open"})
 
