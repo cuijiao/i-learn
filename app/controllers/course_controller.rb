@@ -8,6 +8,11 @@ class CourseController < ApplicationController
     @registed_courses = courses_ids.empty? ? [] : Course.where("id in (#{courses_ids.join(',')})")[0..3]
   end
 
+  def show
+    @learn_courses = Course.where("tag = 'learn'")
+    @entertainment_courses = Course.where("tag = 'entertainment'")
+  end
+
   private
   def find_user
     username = cookies[:username]

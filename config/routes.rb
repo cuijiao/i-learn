@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/create_user' => 'welcome#create_user'
 
   get 'course/index' => 'course#index', as: :course_homepage
+  get 'course/show' => 'course#show', as: :show_all_courses
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
