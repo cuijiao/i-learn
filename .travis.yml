@@ -10,6 +10,5 @@ deploy:
   app:
       master: team-a-i-learn-staging
   run:
-    - 'rake db:migrate'
-    - 'rake db:seed'
+    - 'rake db:migrate db:seed'
     - restart
