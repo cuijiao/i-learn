@@ -1,0 +1,9 @@
+%section
+  #navigation
+    = react_component 'Navigation', {username: cookies[:username],course_homepage_path: course_homepage_path, show_all_courses_path: show_all_courses_path}, :div
+%section
+  #header.head
+    = react_component 'Header', {}, :div
+%section
+  #course_details
+    = @course.name

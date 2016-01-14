@@ -13,6 +13,11 @@ class CourseController < ApplicationController
     @entertainment_courses = Course.where("tag = 'entertainment'")
   end
 
+  def details
+    course_id = params[:id]
+    @course = Course.find(course_id)
+  end
+
   private
   def find_user
     username = cookies[:username]

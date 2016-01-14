@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   get 'course/index' => 'course#index', as: :course_homepage
   get 'course/show' => 'course#show', as: :show_all_courses
+  get 'course/:id' => 'course#details', as: :course_detail_page
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
