@@ -4,7 +4,7 @@ class CourseController < ApplicationController
   def index
     @learn_courses = Course.where("tag = 'learn'")[0..3]
     @entertainment_courses = Course.where("tag = 'entertainment'")[0..3]
-    courses_ids = RegistedCourse.where("user_id = ?", @current_user.id).pluck(:id)
+    courses_ids = RegistedCourse.where("user_id = ?", @current_user.id).pluck(:course_id)
     @registed_courses = courses_ids.empty? ? [] : Course.where("id in (#{courses_ids.join(',')})")[0..3]
   end
 
