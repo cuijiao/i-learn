@@ -16,23 +16,19 @@
     background-repeat: no-repeat;
     margin: 11px auto;
   }
-  .courses{
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .course{
-    background-color: #ffffff;
-    margin-top: 14px;
-    width: 220px;
-    height: 260px;
-    display: inline-block;
-    border-radius: 10px;
-    border: 1px black;
-    box-shadow: 5px 5px 10px gray;
-    span {
-      margin-left: 11px;
-    }
-  }
+ .courses{
+   width: 1000px;
+ }
+ .course{
+   background-color: #ffffff;
+   margin-top: 14px;
+   width: 220px;
+   height: 260px;
+   border-radius: 10px;
+   border: 1px black;
+   box-shadow: 5px 5px 10px gray;
+   span {
+     margin-left: 11px;
+   }
+ }
 }

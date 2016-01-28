@@ -6,7 +6,7 @@ var Registed = React.createClass({
         return(
             <div>
                 <p className="tag">已学技能</p>
-                <div className="courses">
+                <div className="courses row">
                     {
                         courses.map(function(course, index){
                             return (

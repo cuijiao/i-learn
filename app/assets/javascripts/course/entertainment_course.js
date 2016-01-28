@@ -6,7 +6,7 @@ var Entertainment = React.createClass({
         return (
             <div>
                 <p className="tag">休闲技能</p>
-                <div className="courses">
+                <div className="courses row">
                     {
                         courses.map(function (course, index) {
                             return (
